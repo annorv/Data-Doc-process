@@ -56,8 +56,8 @@ To set up this project locally, follow these steps:
   - Go to the "Upload CSV" page in the sidebar.
   - Choose a CSV file to upload.
   - View the data and generate a default line chart.
-  - Customize the chart by selecting columns for X and Y axes.
-  - Save the customized chart as a PNG file.
+  - Customise the chart by selecting columns for X and Y axes.
+  - Save the customised chart as a PNG file.
 
 - **Upload PDF**:
   - Go to the "Upload PDF" page in the sidebar.
