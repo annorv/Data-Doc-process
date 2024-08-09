@@ -1,0 +1,88 @@
+/* Overall body styling */
+body {
+    background-color: #f0f2f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Headers styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #2a6f97;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #75d6ca;
+    color: white;
+}
+
+[data-testid="stSidebar"] a {
+    color: white;
+}
+
+[data-testid="stSidebar"] a:hover {
+    color: #ffeb3b;
+}
+
+/* Custom styling for the sidebar header */
+[data-testid="stSidebar"] .css-18e3th9 {
+    color: white; /* Make the header text white */
+    font-size: 1.5rem; /* Increase the font size */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Button styling */
+button {
+    background-color: #3b42b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f1c40f;
+    color: #333;
+}
+
+/* Container styling */
+.stApp {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 1200px;
+}
+
+/* Expander styling */
+.st-expander {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.st-expander__header {
+    color: #2a9d8f;
+}
+
+/* Code block styling */
+pre {
+    background-color: #282c34;
+    color: #abb2bf;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Link styling */
+a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffeb3b;
+}
